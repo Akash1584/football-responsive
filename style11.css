@@ -175,12 +175,13 @@ h1{
 }
 
 footer img{
-  width:150px;
-  height:50px;
+  width:485px;
+  height:110px;
 }
 
 footer {
   text-align: center;
+  padding:0;
 }
 main {
   justify-content: center;
