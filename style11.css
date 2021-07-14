@@ -61,7 +61,7 @@
   
 }
 h1{
-  
+  padding-left:50px;
 }
 .blog-tittle:hover a {
   text-decoration: none;
@@ -108,7 +108,8 @@ h1{
 .player-bio{
   display:grid;
   grid-template-columns:repeat(3,1fr);
-
+grid-column-gap: 30px;
+grid-column-gap:27px;
 }
 .common-border{
   margin:10px auto;
