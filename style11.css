@@ -60,6 +60,9 @@
   padding:10px;
   
 }
+h1{
+  
+}
 .blog-tittle:hover a {
   text-decoration: none;
   background-color: red;
@@ -126,7 +129,7 @@ h1{
   padding:10px 10px;
 }
 h3{
-  padding:10px 10px;
+  padding-left: 10px;
   
 }
 
