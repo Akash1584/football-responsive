@@ -16,6 +16,9 @@ body{
   font-family:'Poppins',sans-serif;
   
 }
+.fas fa-Arrow-right{
+  text-align:center;
+}
 h1{
   padding-left:50px;
 }
@@ -33,10 +36,11 @@ h1{
   height:438px;
   Top:50px;
 }
- .log-in a{
+.blog-tittle a {
   text-decoration:none;
   color:white;
-  background-color: #E02C6D;
+  
+  border:5px solid #E02C6D;
 }
 
 .section-tittle{
@@ -62,7 +66,9 @@ h1{
  grid-template-columns:repeat(1,1fr);
  justify-content: center;
 }
-
+.row{
+  justify-content:center;
+}
 .player-bio{
   display:grid;
   grid-template-columns:repeat(3,1fr);
