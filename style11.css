@@ -88,6 +88,12 @@ footer{
 }
 .player-bio{
   display:grid;
-  grid-template-columns:repeat(3,1fr)
-  
+  grid-template-columns:repeat(3,1fr);
+  border:5px solid white;
+
+}
+
+.player-pic{
+  width:300px;
+  height:256px;
 }
