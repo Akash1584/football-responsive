@@ -151,6 +151,8 @@ h1{
   position:absolute;
   width:300px;
   top:0;
+  padding:3px;
+  border-radius:5px;
 }
 .photo-argentina:hover .photo-detail{
   display:block;
@@ -167,13 +169,35 @@ h1{
   display:block;
   background-color: yellow;
 }
-.font-awesome {
+.social-media {
   justify-content: center;
+  align-items: center;
 }
 
 footer {
   text-align: center;
 }
+main {
+  justify-content: center;
+}
 
+/* --------------------------
+        Media Queries 
+---------------------- */
+
+@media only screen and (max-width:488px){
+ .player-bio{
+   grid-template-columns: repeat(1,1fr);
+  
+   flex-direction: column;
+ }
+.blog-tittle {
+  flex-direction: column;
+  
+}
+.tittle-pic{
+  flex-direction: column;
+}
+}
 
 
