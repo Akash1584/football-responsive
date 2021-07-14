@@ -122,6 +122,13 @@ h1{
   display:inline-block;
   margin:10px 10px;
 }
+.bio{
+  padding:10px 10px;
+}
+h3{
+  padding:10px 10px;
+  
+}
 
 .photo-argentina{
   width:300px;
