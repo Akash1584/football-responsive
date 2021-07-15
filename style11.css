@@ -59,6 +59,7 @@ header
 .section-tittle{
   display:flex;
   background-color:#562EFF;
+  margin-bottom:70px;
   justify-content: space-evenly;
   
 }
