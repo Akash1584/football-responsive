@@ -270,7 +270,7 @@ Tablet
 
 @media only screen and (min-width:688px) and (max-width:992px){
  .player-bio{
-   grid-template-columns: repeat(1,1fr);
+   grid-template-columns: repeat(2,1fr);
   
    flex-direction: column;
  }
