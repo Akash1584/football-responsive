@@ -59,7 +59,7 @@ header
 .section-tittle{
   display:flex;
   background-color:#562EFF;
-  margin-bottom:70px;
+  margin-bottom:77px;
   justify-content: space-evenly;
   
 }
@@ -262,6 +262,35 @@ footer {
   flex-direction:column;
  
   
+}
+}
+
+/*----------------
+------Tablet device----*/
+
+
+
+@media only screen and (min-width:689px) and (max-width:991px){
+ .player-bio{
+   grid-template-columns: repeat(2,1fr);
+  
+   flex-direction: column;
+ }
+.blog-tittle {
+  flex-direction: column;
+  
+}
+.tittle-pic{
+  flex-direction: column;
+}
+.photo-legend{
+  margin-top: 10px;
+}
+.section-tittle{ 
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  flex-direction:column;
+ 
 }
 }
 
