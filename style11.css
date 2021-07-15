@@ -14,6 +14,7 @@ body{
 
 }
 
+
 .link-button{
   font-size:16px;
   color: white;
@@ -25,6 +26,7 @@ body{
   margin-left:156px;
   margin-bottom:169px;
   background-color: #E02C6D;
+  padding:10px 10px;
   
 }
   
@@ -47,6 +49,8 @@ body{
 .tittle-pic img{
   width:556px;
   height:438px;
+  margin-top:153px;
+  margin-bottom:86px;
 }
 
 .section-tittle{
@@ -55,14 +59,13 @@ body{
   justify-content: space-evenly;
   
 }
-.web-tittleweb-tittle {
+.web-tittle {
   font-size:64px;
   line-height:80px;
   width:485px;
   color:white;
   margin-top:207px;
   margin-left:156px;
- 
   position:relative;
 }
 
@@ -106,8 +109,6 @@ main{
 grid-column-gap: 30px;
 grid-row-gap:10px;
 justify-content:center;
-
-
 
 
 
@@ -266,6 +267,7 @@ footer {
   display:grid;
   grid-template-columns: repeat(1,1fr);
   flex-direction:column;
+ 
   
 }
 }
