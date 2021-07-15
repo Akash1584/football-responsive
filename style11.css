@@ -10,10 +10,13 @@ common Utilities
 
 body{
   font-family: 'Poppins', sans-serif;
-  margin:0;
+  margin:auto;
 
 }
 
+/* --------------
+header
+---------*/
 
 .link-button{
   font-size:16px;
@@ -70,12 +73,11 @@ body{
 }
 
 
+/*---------------
+section part
+-----------*/
 
-body{
-    font-family: 'Poppins', sans-serif;
-    margin-top: auto;
-    margin-left: auto;
-}
+
 
 main{
     display: flex;
@@ -125,16 +127,6 @@ justify-content:center;
   
 }
 
-/*.player-pic{
-  width:300px;
-  align-items:center;
-  display:inline-block;
-  margin:15 15 0 15;
-}
-*/
-
-
-
 
 .player-pic{
   width:310px;
@@ -155,6 +147,11 @@ h3{
   margin:auto;
   color:#6C6C6C;
 }
+
+/*-----------------
+legend Area
+-------------*/
+
 
 .photo-argentina{
   width:300px;
@@ -213,13 +210,8 @@ h2{
   background-color: yellow;
  
 }
-
-
-
-
-
-
-
+/*----------footer part 
+---------------*/
 
 .fab{
   display:inline;
@@ -247,7 +239,7 @@ footer {
         Media Queries  Mobile
 ---------------------- */
 
-@media only screen and (max-width:488px){
+@media only screen and (max-width:688px){
  .player-bio{
    grid-template-columns: repeat(1,1fr);
   
@@ -274,8 +266,27 @@ footer {
 
 /* ---------------------
 Tablet
---------- */
+--------*/
 
-
-          
-
+@media only screen and (min-width:688px) and (max-width:992px){
+ .player-bio{
+   grid-template-columns: repeat(1,1fr);
+  
+   flex-direction: column;
+ }
+.blog-tittle {
+  flex-direction: column;
+  
+}
+.tittle-pic{
+  flex-direction: column;
+}
+.photo-legend{
+  margin-top: 10px;
+}
+.section-tittle{ 
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  flex-direction:column;
+}
+}
